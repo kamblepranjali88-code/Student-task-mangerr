@@ -12,11 +12,17 @@
     <div class="container">
         <h1>Student Task Manager</h1>
 
-        <div class="task-input">
-            <input type="text" id="taskInput" placeholder="Enter a task">
-            <button onclick="addTask()">Add Task</button>
-        </div>
+       <div class="task-input">
+    <input type="text" id="taskInput" placeholder="Enter a task">
 
+    <select id="priorityInput">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+    </select>
+
+    <button onclick="addTask()">Add Task</button>
+</div>
         <ul id="taskList"></ul>
     </div>
 
