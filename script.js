@@ -21,6 +21,7 @@ function addTask() {
 
     deleteButton.onclick = function () {
         li.remove();
+        updateTaskCount();
     };
 
     li.appendChild(span);
@@ -29,4 +30,12 @@ function addTask() {
     document.getElementById("taskList").appendChild(li);
 
     input.value = "";
+
+    updateTaskCount();
+}
+
+function updateTaskCount() {
+    const count = document.getElementById("taskList").children.length;
+    document.getElementById("taskCount").textContent =
+        "Total Tasks: " + count;
 }
