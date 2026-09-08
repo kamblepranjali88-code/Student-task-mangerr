@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Student Task Manager Web Application",
   "scripts": {
+    "test": "node validation.test.js",
     "build": "mkdir -p build && cp *.html *.css *.js build/"
   }
 }
