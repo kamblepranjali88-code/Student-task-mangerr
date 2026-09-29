@@ -4,6 +4,10 @@
   "description": "Student Task Manager Web Application",
   "scripts": {
     "test": "node validation.test.js",
+     "start": "node app.js",
     "build": "mkdir -p build && cp *.html *.css *.js build/"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
