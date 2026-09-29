@@ -3,7 +3,7 @@ function validateTask(task) {
 }
 
 function testValidTask() {
-    if (!validateTask("Complete assignment")) {
+    if (validateTask("Complete assignment")) {
         console.log("PASS: Valid Task test");
     } else {
         throw new Error("Test Failed: Valid task was rejected");
