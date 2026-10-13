@@ -1,1 +1,1 @@
-This is Student Task Manager WEB APPLICATION
+This is Student Task Manager web application
